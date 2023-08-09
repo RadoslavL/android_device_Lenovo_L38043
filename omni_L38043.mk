@@ -30,5 +30,5 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Add fingerprint from Stock ROM build.prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
     # These lines are from my device. You MUST Replace yours.
-    BUILD_FINGERPRINT="Lenovo/L38043/K9:8.1.0/O11019/1575368252:user/release-keys" \
+    BUILD_FINGERPRINT="Lenovo/L38043/K9:8.1.0/O11019/1575368252:user/release-keys"# \
     PRIVATE_BUILD_DESC="full_lava6762_l01-user 8.1.0 O11019 1575368252 release-keys"
