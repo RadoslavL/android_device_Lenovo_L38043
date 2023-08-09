@@ -52,7 +52,8 @@ TW_DEFAULT_LANGUAGE := en                     # Set Default Language
 TW_EXTRA_LANGUAGES := false
 
 # Kernel
-TARGET_IS_64_BIT := true                      # true/false: Determine if the device is 64-bit or not
+# true/false: Determine if the device is 64-bit or not
+TARGET_IS_64_BIT := true
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 TARGET_PREBUILT_RECOVERY_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 # Get the CMDLine, Base, Pagesize and offsets from Unpacked recovery image and put below
