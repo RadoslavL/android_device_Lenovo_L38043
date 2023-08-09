@@ -36,7 +36,7 @@ TARGET_SCREEN_HEIGHT := 1440                    # The height
 TARGET_SCREEN_WIDTH := 720                      # The width
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 # Set the Brightness Control File Path below (as per your chip/device)
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
 # Set the Path of Logical Units (LUNs) for Storage below (as per your chip/device)
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
