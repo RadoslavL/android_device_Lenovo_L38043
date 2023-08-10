@@ -37,6 +37,7 @@ RECOVERY_SDCARD_ON_DATA := true
 TW_EXCLUDE_SUPERSU := true
 # true/false: Add Data Encryption Support or not
 TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_JB_CRYPTO := true
 # Optional: Disables virtual mouse
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_SCREEN_BLANK_ON_BOOT := true
